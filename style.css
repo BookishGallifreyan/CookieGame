@@ -1,0 +1,17 @@
+html {
+  background-color: green;
+}
+
+.potato {
+  background-color: olive;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+button > p {
+  z-index: 2;
+}
+button > img {
+  z-index: 1;
+}
