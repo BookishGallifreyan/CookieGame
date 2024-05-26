@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clicker game!</title>
+    <title>Potato Farm!</title>
     <script src="./app.js" defer></script>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <h1>Potato Picking Procrastination Station</h1>
+    <h2>Mash the potato to farm more potatoes!</h2>
     <div>
       <button class="potato" id="theButton">
         <img
@@ -18,6 +19,21 @@
         <p><b>BOIL IT, MASH IT, CLICK IT IN A STEW!</b></p>
       </button>
     </div>
-    <section class="potatoCounter" 0 id="potatoCounter"></section>
+    <div>
+      <label id="tattycounter">0</label>
+    </div>
+    <section id="Shop">
+      <div id="Trowel"></div>
+      <div>A new trowel(+1) - 100 potatoes</div>
+      <button id="trowel">Buy now!</button>
+
+      <div id="Farmer"></div>
+      <div>An extra pair of hands(+5) - 500 potatoes</div>
+      <button id="farmer">Buy now!</button>
+
+      <div id="Potato"></div>
+      <div>Farm rare space potatoes(+10) - 1000 potatoes</div>
+      <button id="spacePotato">Buy now!</button>
+    </section>
   </body>
 </html>
